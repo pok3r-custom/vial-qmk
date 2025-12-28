@@ -69,6 +69,10 @@
                 "cortex-m35p",
                 "cortex-m55",
                 "cortex-m85",
+                "HT32F1653",
+                "HT32F1654",
+                "HT32F52342",
+                "HT32F52352",
                 "MKL26Z64",
                 "MK20DX128",
                 "MK20DX256",
@@ -231,6 +235,7 @@
                 "custom",
                 "gd32v-dfu",
                 "halfkay",
+                "ht32-dfu",
                 "kiibohd",
                 "lufa-dfu",
                 "lufa-ms",
@@ -540,6 +545,7 @@
                         "is31fl3743a",
                         "is31fl3745",
                         "is31fl3746a",
+                        "mbi",
                         "snled27351"
                     ]
                 },
@@ -624,6 +630,7 @@
                         "is31fl3743a",
                         "is31fl3745",
                         "is31fl3746a",
+                        "mbi",
                         "snled27351",
                         "ws2812"
                     ]
