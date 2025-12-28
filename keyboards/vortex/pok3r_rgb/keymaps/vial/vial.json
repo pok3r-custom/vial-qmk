@@ -1,7 +1,7 @@
 {
-  "name": "Vortex POK3R",
+  "name": "Vortex POK3R RGB",
   "vendorId": "0x04D9",
-  "productId": "0x0167",
+  "productId": "0x8167",
   "lighting": "vialrgb",
   "matrix": {"rows": 10, "cols": 8},
   "layouts": {

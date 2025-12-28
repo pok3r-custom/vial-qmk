@@ -158,7 +158,7 @@
     },
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0167",
+        "pid": "0x8167",
         "vid": "0x04D9"
     },
     "layouts": {
