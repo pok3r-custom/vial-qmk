@@ -85,5 +85,5 @@ If successful, the keyboard should be unlocked and reboot into QMK.
 Enter the bootloader in 4 ways:
 
 * **Bootmagic reset**: Hold down the `Esc` key and plug in the keyboard
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+* **Vial bootloader command**: In the Vial GUI select Security -> Reboot to bootloader
 * **Configure BOOT1 pin and reset**: Short `SEL3` header pins together (with a tweezer) and plug in the keyboard
