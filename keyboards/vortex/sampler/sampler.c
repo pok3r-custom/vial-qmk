@@ -16,17 +16,6 @@
 
 #ifdef RGB_MATRIX_ENABLE
 #include "mbi.h"
-#include "rgb_matrix.h"
-#include "host.h"
-
-bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
-    if (host_keyboard_led_state().caps_lock) {
-        RGB_MATRIX_INDICATOR_SET_COLOR(63, 255, 255, 255);
-    } else {
-        RGB_MATRIX_INDICATOR_SET_COLOR(63, 0, 0, 0);
-    }
-    return false;
-}
 
 /*
  * Channel Setup:

@@ -25,10 +25,10 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case B_00:
             if (record->event.pressed) {
-                // when keycode KC_00 is pressed
+                // when keycode B_00 is pressed
                 SEND_STRING("00");
             } else {
-                // when keycode KC_00 is released
+                // when keycode B_00 is released
             }
             break;
     }
