@@ -25,7 +25,7 @@
 #    define SPI_CS_PIN B10
 #endif
 
-// MBIA043 (at 5V)
+// MBIA043A
 #define MBI_NUM_CHANNELS 16
 #define MBI_SHIFT_REG_WIDTH 10
 #define MBI_DATA_LATCH 1
@@ -75,7 +75,7 @@
 #define MBI_GCLK_PIN C0
 #define MBI_GCLK_OUTPUT_MODE (PAL_MODE_OUTPUT_PUSHPULL | PAL_MODE_HT32_AF(AFIO_TM))
 
-// MCU-managed MBI 5V power supply enable (active-low)
+// MCU-managed MBI 3.3V power supply enable (active-low)
 #define MBI_POWER_ENABLE_PIN C1
 #define MBI_POWER_ACTIVE_STATE ACTIVE_LOW
 #define MBI_POWER_OUTPUT_MODE (PAL_MODE_OUTPUT_OPENDRAIN | PAL_MODE_HT32_AF(AFIO_GPIO))
