@@ -71,7 +71,7 @@ Device 0: [04d9:8010] Model=HT32F1654 Bus=3 Port=4 Addr=66
 > risk.
 
 ```bash
-$ ht32-dfu-tool -w -r write -m 0 /path/to/vortex_pok3r_rgb_default.bin
+$ ht32-dfu-tool -w -r write -m 0 /path/to/vortex_pok3r_rgb2_default.bin
 ```
 
 If successful, the keyboard should be unlocked and reboot into QMK.
@@ -81,6 +81,5 @@ If successful, the keyboard should be unlocked and reboot into QMK.
 Enter the bootloader in 4 ways:
 
 * **Bootmagic reset**: Hold down the `Esc` key and plug in the keyboard
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
-* **Jump to bootloader via Magic command**: With Command enabled, press `LShift+RShift+B` or `LShift+RShift+Esc`
-* **Configure BOOT1 pin and reset**: Short `SEL3` header pins together (with a tweezer) and plug in the keyboard
+* **Vial bootloader command**: In the Vial GUI select Security -> Reboot to bootloader
+* **Configure BOOT1 pin and reset**: Short test point `BOOT1` to ground and plug in the keyboard
